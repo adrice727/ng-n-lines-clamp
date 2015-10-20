@@ -1,8 +1,8 @@
-.sis-n-lines-clamp {
+.n-lines-clamp {
   position: relative;
   overflow: hidden;
 }
 
-.sis-n-lines-text {
+.n-lines-text {
   overflow: hidden;
 }

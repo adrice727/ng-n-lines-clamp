@@ -6,7 +6,7 @@ function nLinesClamp($timeout) {
       var maxHeight = scope.limit * lineHeight;
       var textBlockHeight;
 
-      $(element).addClass('sis-n-lines-clamp').css('max-height', maxHeight);
+      angular.element(element).addClass('sis-n-lines-clamp').css('max-height', maxHeight);
 
       $timeout(function(){
           textBlockHeight = $(element).children().first().height();
